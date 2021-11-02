@@ -1,5 +1,5 @@
 # Test Case
 
-GIVEN I have 1 and 3
-WHEN adding those numbers together
-THEN I will receive 4
+GIVEN I have blog post comments
+WHEN showing these comments
+THEN I will only display the top liked comment

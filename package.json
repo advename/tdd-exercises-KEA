@@ -2,22 +2,12 @@
   "name": "test-driven-dev",
   "version": "0.0.0",
   "scripts": {
+    "script": "node --experimental-modules --es-module-specifier-resolution=node",
     "test": "jest",
     "coverage": "jest --coverage --passWithNoTests"
   },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
-    "cross-env": "^7.0.3",
     "jest": "^27.3.1"
-  },
-  "babel": {
-    "env": {
-      "test": {
-        "plugins": [
-          "@babel/plugin-transform-modules-commonjs"
-        ]
-      }
-    }
   },
   "jest": {
     "collectCoverage": true,
@@ -26,5 +16,6 @@
       "!**/node_modules/**",
       "!**/coverage/**"
     ]
-  }
+  },
+  "type": "module"
 }
