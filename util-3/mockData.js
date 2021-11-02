@@ -1,5 +1,5 @@
 // List of comments
-const data = [
+const mockData = [
   {
     id: 1,
     username: "jbladesmith0",
@@ -70,4 +70,4 @@ const data = [
   }
 ];
 
-export default data;
+export default mockData;
